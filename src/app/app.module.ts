@@ -7,6 +7,7 @@ import { CapturarCurpComponent } from './components/capturar-curp/capturar-curp.
 import { MuestraPersonaEncontradaComponent } from './components/muestra-persona-encontrada/muestra-persona-encontrada.component';
 import { RegistrarUsoComponent } from './components/registrar-uso/registrar-uso.component';
 import { MostrarTiempoDeUsoComponent } from './components/mostrar-tiempo-de-uso/mostrar-tiempo-de-uso.component';
+import { MostrarReporteComponent } from './components/mostrar-reporte/mostrar-reporte.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MostrarTiempoDeUsoComponent } from './components/mostrar-tiempo-de-uso/
     CapturarCurpComponent,
     MuestraPersonaEncontradaComponent,
     RegistrarUsoComponent,
-    MostrarTiempoDeUsoComponent
+    MostrarTiempoDeUsoComponent,
+    MostrarReporteComponent
   ],
   imports: [
     BrowserModule,
