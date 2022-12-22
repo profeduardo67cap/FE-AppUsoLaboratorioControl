@@ -8,6 +8,7 @@ import { MuestraPersonaEncontradaComponent } from './components/muestra-persona-
 import { RegistrarUsoComponent } from './components/registrar-uso/registrar-uso.component';
 import { MostrarTiempoDeUsoComponent } from './components/mostrar-tiempo-de-uso/mostrar-tiempo-de-uso.component';
 import { MostrarReporteComponent } from './components/mostrar-reporte/mostrar-reporte.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MostrarReporteComponent } from './components/mostrar-reporte/mostrar-re
     MuestraPersonaEncontradaComponent,
     RegistrarUsoComponent,
     MostrarTiempoDeUsoComponent,
-    MostrarReporteComponent
+    MostrarReporteComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
