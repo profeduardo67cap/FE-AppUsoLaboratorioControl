@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CapturarCurpComponent } from './components/capturar-curp/capturar-curp.component';
 import { MuestraPersonaEncontradaComponent } from './components/muestra-persona-encontrada/muestra-persona-encontrada.component';
+import { RegistrarUsoComponent } from './components/registrar-uso/registrar-uso.component';
+import { MostrarTiempoDeUsoComponent } from './components/mostrar-tiempo-de-uso/mostrar-tiempo-de-uso.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CapturarCurpComponent,
-    MuestraPersonaEncontradaComponent
+    MuestraPersonaEncontradaComponent,
+    RegistrarUsoComponent,
+    MostrarTiempoDeUsoComponent
   ],
   imports: [
     BrowserModule,
