@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class NavBarComponent implements OnInit{
-  img='https://commons.wikimedia.org/wiki/File:Angular_full_color_logo.svg';
+  img='https://cdn.freebiesupply.com/logos/large/2x/angular-icon-1-logo-png-transparent.png';
 
   constructor(){
   }
